@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gary - Personal Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    
+</head>
+
+<body>
+
+    <header>
+        <h1>Gary Simwawa</h1>
+    </header>
+
+    <nav>
+        <a href="mark_converter.html">Mark Converter</a>
+        <a href="staff.html">Staff Information</a>
+        <a href="weather.html">Weather Converter</a>
+    </nav>
+
+    <section>
+        <img id="profilePicture" src="Images/Fridaynight.jpg" alt="Gary" />
+        <h1 class="Me">About Me</h1>
+        <p id="profileImageName"></p>
+        <p id="pictureName">
+            Hi! My name is Gary, and I am a web developer student from the beautiful city of Calgary. I am very passionate
+            about technology and enjoy creating innovative solutions. My expertise lies in web development and
+            programming. My journey in the world of software development has been an exciting one, and I'm eager to
+            share my skills and experiences. I am currently learning programming languages including JavaScript, C++,
+            C#, HTML, and CSS. I'm enthusiastic to contribute to initiatives that advance technology and deliver
+            exceptional user experiences. I thrive in fast-paced environments, where teamwork is at the core.
+        </p>
+        <p id="pictureName2">
+            In addition to my technical skills, I have strong communication and problem-solving abilities. I believe in
+            continuous learning and I am always eager to explore new challenges in the ever-evolving field of
+            information and software technology.
+        </p>
+
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><span>UI/UX:</span> Designing Web Pages, SQL Database Management</li>
+                <li><span>Programming Languages:</span> HTML, CSS, JavaScript, C++, C#</li>
+                <li><span>Customer Service:</span> Able to understand customer needs and address concerns</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li><span>2023 - present:</span> Academic Projects</li>
+                <li><span>2018 - 2022:</span> Sales Associate at Pep Stores</li>
+                <li><span>2016 - 2017:</span> General Maintenance worker at AC Detailing</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><span>2023 - present:</span> Software Development at Bow Valley College</li>
+                <li><span>2015:</span> Mechanical Fitting from Northern Technical College</li>
+                <li><span>2010:</span> High School Diploma from Chankwa High</li>
+            </ul>
+        </div>
+
+        <h1 class="Info">Contact</h1>
+        <div id="personalInfo">
+            <h2>Contact Information</h2>
+            <ul>
+                <li><span>Email:</span> garylarry23@gmail.com</li>
+                <li><span>Phone:</span> 825-883-4613</li>
+                <li><span>LinkedIn:</span> <a href="https://www.linkedin.com/in/gary-simwawa-5816b0ba/"
+                        target="fab fa-linkedin">gary-simwawa</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 Gary Simwawa. All Rights Reserved. | Current Date: 28-02-2024
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
